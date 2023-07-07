@@ -1,0 +1,241 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+/*HEADER*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 44px 165px;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.main-nav-link {
+  display: inline-block;
+  list-style: none;
+  font-size: 13px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #242d52;
+}
+
+.main-nav-link:hover {
+  opacity: 50%;
+}
+
+.btn {
+  height: 44px;
+  width: 137px;
+  border-radius: 22px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 13px;
+
+  box-shadow: 0 5px 5px #979797;
+}
+.orange-btn {
+  background-color: #f3603c;
+  color: #fcf6f5;
+}
+
+.btn:hover {
+  opacity: 50%;
+}
+
+/*FIRST SECTION*/
+.container {
+  margin: 0 165px;
+}
+.grid-2-colls {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.hero-section {
+  padding-top: 110px;
+}
+.hero-title {
+  color: #242d52;
+  font-weight: 700;
+  line-height: 64px;
+  font-size: 56px;
+  margin-bottom: 25px;
+  margin-top: 50px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 16px;
+  /* padding-right: 180px;*/
+  color: #242d52;
+  opacity: 50%;
+}
+
+.hero-description {
+  padding-right: 180px;
+}
+
+.btn-hero-section {
+  margin-top: 40px;
+}
+
+/*SECOND SECTION*/
+
+.features-section {
+  padding-top: 132px;
+}
+
+.features-title {
+  color: #242d52;
+  font-weight: 700;
+  margin-bottom: 24px;
+  line-height: 44px;
+  font-size: 40px;
+}
+
+.grid-2-colls-gap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 125px;
+}
+
+.number {
+  /*display: inline-block;*/
+  border-radius: 39px;
+  background-color: #f3603c;
+  color: #fff;
+  width: 67px;
+  height: 39px;
+  font-size: 16px;
+  font-weight: 700;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+}
+.side-text {
+  position: relative;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.list-subtitle {
+  font-size: 16px;
+  font-weight: 700;
+  color: #242d52;
+
+  margin-bottom: 20px;
+}
+
+.first-li {
+  margin-top: 15px;
+}
+
+.list-description {
+  line-height: 26px;
+  color: #242d52;
+  font-weight: 400;
+  opacity: 50%;
+
+  margin-bottom: 40px;
+}
+/*REVIEWS SECTION*/
+.reviews-section {
+  padding-top: 146px;
+  padding-bottom: 300px;
+}
+
+.slider {
+  margin-top: 64px;
+  display: flex;
+  gap: 30px;
+}
+
+.review-title {
+  text-align: center;
+  font-weight: 900;
+  line-height: 44px;
+  font-size: 40px;
+  margin-bottom: 58px;
+}
+
+.review-text-box {
+  background-color: #fafafa;
+  height: 220px;
+  width: 540px;
+  text-align: center;
+
+  position: relative;
+  top: 40px;
+}
+
+.review-photo {
+  position: absolute;
+  z-index: 1;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.name-review {
+  font-weight: 900;
+  font-size: 16px;
+
+  padding-top: 60px;
+  margin-bottom: 20px;
+}
+
+.description-review {
+  opacity: 50%;
+  font-size: 16px;
+}
+
+.btn-center {
+  text-align: center;
+  margin-top: 100px;
+}
+
+/*BG SECTION*/
+.section-bg {
+  background-color: #f3603c;
+  /*display: flex;
+  justify-content: space-between;*/
+  height: 220px;
+  background-image: url(/image/bg\ bg-section.png),
+    url(image/bg\ bg-section2.png);
+  /*background-position: top left;*/
+  background-repeat: no-repeat;
+}
+
+.container-section-bg {
+  display: flex;
+  justify-content: space-between;
+  padding: 62px 165px;
+}
+.title-bg-section {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 44px;
+  color: #fff;
+
+  /* padding: 62px 520px 62px 165px;*/
+}
+.white-btn {
+  background-color: #fff;
+  color: #f3603c;
+}
+
+/*FOOTER*/
