@@ -27,22 +27,24 @@
   </head>
   <body>
     <header class="header">
-      <img src="image/manage-logo.svg" alt="Manage Logo" />
+      <div class="navigation-container">
+        <a href="#" class=""
+          ><img src="image/manage-logo.svg" alt="Manage Logo"
+        /></a>
 
-      <nav class="main-nav">
-        <ul class="main-nav-list">
-          <li><a href="#" class="main-nav-link">Pricing</a></li>
-          <li><a href="#" class="main-nav-link">Product</a></li>
-          <li><a href="#" class="main-nav-link">About Us</a></li>
-          <li><a href="#" class="main-nav-link">Careers</a></li>
-          <li><a href="#" class="main-nav-link">Community</a></li>
-        </ul>
-      </nav>
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li><a href="#" class="main-nav-link">Pricing</a></li>
+            <li><a href="#" class="main-nav-link">Product</a></li>
+            <li><a href="#" class="main-nav-link">About Us</a></li>
+            <li><a href="#" class="main-nav-link">Careers</a></li>
+            <li><a href="#" class="main-nav-link">Community</a></li>
+          </ul>
+        </nav>
 
-      <button class="btn orange-btn">Get Started</button>
-    </header>
+        <button class="btn orange-btn">Get Started</button>
+      </div>
 
-    <main>
       <section class="hero-section">
         <div class="container">
           <div class="grid-2-colls">
@@ -63,7 +65,8 @@
           </div>
         </div>
       </section>
-
+    </header>
+    <main>
       <section class="features-section">
         <div class="container">
           <div class="grid-2-colls-gap">
@@ -169,21 +172,58 @@
     </main>
 
     <footer class="footer">
-      <div class="footer-container">
+      <div class="container">
         <div class="wrapper">
+          <div class="social">
+            <a href="#" class=""
+              ><img src="image/manage-logo.svg" alt="Manage Logo"
+            /></a>
+
+            <div class="social-list">
+              <ul class="icons">
+                <li>
+                  <a href="#"><img src="images/icon-facebook.svg" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"> <img src="images/icon-youtube.svg" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="images/icon-twitter.svg" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="images/icon-pinterest.svg" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="images/icon-instagram.svg" alt="" /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer-list">
+            <ul class="footer-list_right">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">About us</a></li>
+            </ul>
+            <ul class="footer-list_left">
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Community</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+
           <form action="" class="error">
             <input
               type="email"
               placeholder="Updates in your inbox…"
               id="email"
             />
-            <button type="submit" class="cta-email">Go</button>
+            <button type="submit" class="btn orange-btn cta-email">Go</button>
           </form>
-
-          <div class="footer-list">
-            <ul class="footer-list_right"></ul>
-            <ul class="footer-list_left"></ul>
-          </div>
         </div>
       </div>
     </footer>
